@@ -13,11 +13,12 @@ let header = `
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">stuff</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="stuff.html">stuff</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 `;
 document.getElementById("header").innerHTML = header;
+header = null;

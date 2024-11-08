@@ -3,10 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(245, 225, 198);
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 body {
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  font-size: 130%;
+}
+
+h1 {
+  font-size: 200%;
+  padding: 0px 0px 40px 0px;
+}
+
+p {
+  text-align: left;
 }
 
 .container {
@@ -36,7 +46,6 @@ header {
   /* display: inline-block; */
   transition: background-color 0.3s;
   background-color: azure;
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 nav {
@@ -60,9 +69,8 @@ nav {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
   background-color: azure;
-  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 .nav-links li a:hover {
@@ -75,7 +83,7 @@ nav {
 }
 
 .nav-bar {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 20px;
   overflow: hidden;
