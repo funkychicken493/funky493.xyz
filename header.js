@@ -1,7 +1,6 @@
 let header = `
     <head>
-    <title>what</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>funky493</title>
     <meta charset="UTF-8">
     <meta name="viewport" 
         content="width=device-width, initial-scale=1.0">
